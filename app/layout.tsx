@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+export const fetchCache = 'force-no-store';
 
 export const metadata: Metadata = {
   title: "Create Next App",
