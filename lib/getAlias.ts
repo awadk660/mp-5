@@ -1,3 +1,4 @@
+"use server";
 import getCollection, { URLS_CONNECTION } from "@/db";
 
 export default async function getAlias(alias: string): Promise<string | null> {
